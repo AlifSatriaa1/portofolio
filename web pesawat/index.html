@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Maman Airline</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">Maman Airline</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#tour">Tour</a></li>
+        <li><a href="#package">Paket</a></li>
+        <li><a href="#contact">Kontak</a></li>
+        <li><a href="#">Book Trip</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn">BOOK TRIP</button>
+      </div>
+    </nav>
+
+    <header id="home">
+      <div class="header__container">
+        <div class="header__content">
+          <p>Study Tour With Maman Airline</p>
+          <h1>Study Tour Bersama Maman Di Jamin Aman!</h1>
+          <div class="header__btns">
+            <button class="btn">Booking Sekarang!</button>
+            <a href="#">
+              <span><i class="ri-play-circle-fill"></i></span>
+            </a>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="png/header.png" alt="header" />
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container destination__container" id="about">
+      <h2 class="section__header">Destinasi Populer</h2>
+      <p class="section__description">
+        Destinasi yang sering di pesan di maman airline
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="png/destination-1.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Tradition and Futurism</h4>
+              <p>New York City, USA</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.7
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="png/destination-2.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>The City of Lights</h4>
+              <p>Paris, France</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.5
+            </div>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="png/destination-3.jpg" alt="destination" />
+          <div class="destination__card__details">
+            <div>
+              <h4>Island of the Gods</h4>
+              <p>Bali, Indonesia</p>
+            </div>
+            <div class="destination__rating">
+              <span><i class="ri-star-fill"></i></span>
+              4.8
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container journey__container" id="tour">
+      <h2 class="section__header">Perjalan Ke Luar Negri Lebih Mudah!</h2>
+      <p class="section__description">
+        Jika Ingin Liburan Keluarga Ke Luar Negri Di Sarankan Menggunakan Maman Airline
+      </p>
+      <div class="journey__grid">
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Proses Pemesanan yang Mudah dan gampang</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-bookmark-3-line"></i></span>
+            <h4>Reservasi Mudah, Hanya Satu Klik dari jauh</h4>
+            <p>
+              Dari penerbangan dan akomodasi hingga aktivitas dan transportasi,
+               semuanya yang Anda butuhkan tersedia di ujung jari Anda,
+                membuat perencanaan perjalanan menjadi mudah.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Rencana Perjalanan yang Disesuaikan</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-landscape-fill"></i></span>
+            <h4>Rencana planning Hanya untuk Anda</h4>
+            <p>
+              Nikmati rencana perjalanan yang dipersonalisasi sesuai dengan preferensi dan minat Anda.
+               Apakah Anda mencari petualangan atau perendaman budaya,
+                rencana perjalanan yang kami sesuaikan memastikan perjalanan Anda menjadi milik Anda yang unik.
+            </p>
+          </div>
+        </div>
+        <div class="journey__card">
+          <div class="journey__card__bg">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Wawasan Lokal Dengan Guide yang expert</h4>
+          </div>
+          <div class="journey__card__content">
+            <span><i class="ri-map-2-line"></i></span>
+            <h4>Tips dan Rekomendasi dari Guide</h4>
+            <p>
+              Kami menyediakan rekomendasi yang telah diseleksi untuk tempat makan,
+               wisata, dan permata tersembunyi, sehingga Anda dapat merasakan setiap
+                tujuan seperti penduduk lokal.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container showcase__container" id="package">
+      <div class="showcase__image">
+        <img src="png/showcase.jpg" alt="showcase" />
+      </div>
+      <div class="showcase__content">
+        <h4>Tour bersama maman airline apa saja yang di dapatkan?</h4>
+        <p>
+          Jika Anda memesan paket tour melalui Maman Airline, ada beberapa hal yang biasanya Anda dapatkan, tergantung pada paket yang dipilih. Berikut adalah beberapa hal umum yang sering disertakan dalam paket tour:
+
+          1.	Tiket Penerbangan: Banyak paket tour termasuk tiket pesawat pulang-pergi dari kota asal ke destinasi tujuan. Maman Airline sering bekerja sama dengan berbagai maskapai penerbangan untuk menyediakan pilihan penerbangan yang fleksibel. <br>
+          2.	Akomodasi: Paket tour biasanya mencakup akomodasi selama perjalanan. Anda dapat memilih dari berbagai jenis hotel, mulai dari yang budget hingga yang mewah, sesuai dengan kebutuhan dan anggaran Anda. <br>
+          3.	Transportasi Lokal: Banyak paket tour termasuk transportasi lokal, seperti antar-jemput bandara, bus wisata, atau mobil pribadi untuk mengunjungi berbagai destinasi di dalam kota. <br>
+          4.	Tur dan Aktivitas: Paket tour sering kali mencakup tur harian atau setengah hari ke tempat-tempat wisata populer. Ini bisa berupa tur kota, wisata alam, kunjungan ke tempat bersejarah, atau aktivitas rekreasi lainnya seperti snorkeling, hiking, atau safari. <br>
+          
+        Untuk mengetahui detail lebih lanjut tentang apa saja yang termasuk dalam paket tour spesifik yang Anda minati, sebaiknya Anda membaca deskripsi paket secara menyeluruh di situs Maman Airline atau aplikasi mereka. <br>
+        </p>
+        <p>
+          5.	Makan: Beberapa paket termasuk makanan, seperti sarapan di hotel, makan siang atau makan malam di restoran tertentu. Ini tergantung pada jenis paket yang dipilih. <br>
+          6.	Pemandu Wisata: Untuk beberapa destinasi, paket tour dapat mencakup layanan pemandu wisata profesional yang akan menemani dan memberi penjelasan selama tur. <br>
+          7.	Tiket Masuk Tempat Wisata: Biaya masuk ke tempat-tempat wisata yang dikunjungi sering kali sudah termasuk dalam paket tour, sehingga Anda tidak perlu membayar lagi di lokasi. <br>
+          8.	Asuransi Perjalanan: Beberapa paket menawarkan asuransi perjalanan yang mencakup berbagai kejadian tak terduga, seperti pembatalan perjalanan, keterlambatan penerbangan, atau masalah kesehatan. <br>
+          9.	Promo dan Diskon Khusus: Maman Airline sering memberikan promo atau diskon khusus untuk paket tour tertentu, yang bisa menghemat biaya perjalanan Anda. <br>
+        
+        </p>
+        <div class="showcase__btn">
+          <button class="btn">
+            Booking Sekarang!
+            <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <h4>20+</h4>
+        <p>Years Experience</p>
+      </div>
+      <div class="banner__card">
+        <h4>120K</h4>
+        <p>Happy Clients</p>
+      </div>
+      <div class="banner__card">
+        <h4>4.8</h4>
+        <p>Overall Ratings</p>
+      </div>
+    </section>
+
+    <section class="section__container discover__container">
+      <h2 class="section__header">Jelajahi dunia di maman airline</h2>
+      <p class="section__description">
+        Rasakan Pemandangan Menakjubkan dan Perspektif yang Unik
+      </p>
+      <div class="discover__grid">
+        <div class="discover__card">
+          <span><i class="ri-camera-lens-line"></i></span>
+          <h4>Pemandangan Kota di atas awan</h4>
+          <p>
+            Saksikan keajaiban arsitektur dan jalan-jalan yang ramai 
+            dari sudut pandang burung, menawarkan perspektif yang unik.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-ship-line"></i></span>
+          <h4>Keindahan Pesisir laut</h4>
+          <p>
+            Terbang di atas garis pantai yang masih alami dan perairan berwarna turquoise,
+             mengungkapkan teluk-teluk tersembunyi dan terumbu karang yang 
+             berwarna-warni.
+          </p>
+        </div>
+        <div class="discover__card">
+          <span><i class="ri-landscape-line"></i></span>
+          <h4>Bangunan Bersejarah</h4>
+          <p>
+            Saksikan keagungan kastil kuno dan situs-situs penting lainnya
+             dengan cara yang tidak bisa ditawarkan oleh tur darat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container">
+      <h2 class="section__header">Orang Terkaya</h2>
+      <p class="section__description">
+       Orang yang setiap tahun pergi ke luar negri
+       dan Orang terkaya di afrika
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                 maman airline adalah study tour terbaik di seluruh negara
+                 jika kalian ingin pergi keluar negri jangan lupa 
+                 menggunakan maman airline untuk mempermudah perjalanan kalian ketika
+                 ingin pergi ke luar negri terimakasih maman airline
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="png/Maman Testmony.jpg" alt="client" />
+                <div>
+                  <h4>MAMAN</h4>
+                  <h5>Travel IDN</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Secara keseluruhan, saya sangat puas dengan Maman Airline. Saya pasti akan memilih mereka lagi untuk perjalanan
+                   saya berikutnya dan merekomendasikan kepada teman-teman dan keluarga.
+                    Terima kasih, Maman Airline, untuk pengalaman perjalanan yang luar biasa!
+
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="png/Iqbal Testmony.jpg" alt="client" />
+                <div>
+                  <h4>Iqbal Adiatma</h4>
+                  <h5>Orang Terpintar</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Saya baru saja selesai melakukan perjalanan dengan Maman Airline dan pengalaman saya sangat luar biasa.
+                   Dari awal hingga akhir, layanan yang diberikan benar-benar memuaskan.Penilaian ini memberikan kesan positif dan menyoroti berbagai aspek layanan Maman
+                    Airline yang membuat pengalaman perjalanan menjadi menyenangkan.
+
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="png/RIfai testimony.jpg" alt="client" />
+                <div>
+                  <h4>Rifai</h4>
+                  <h5>Orang Bersejarah</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__content">
+                <div class="client__rating">
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                  <span><i class="ri-star-fill"></i></span>
+                </div>
+                <p>
+                  Finding a balance between work and travel can be challenging,
+                  but Skywings made it effortless. Their efficient planning and
+                  excellent recommendations helped me maximize my downtime and
+                  enjoy every moment of my trip. I look forward to working with
+                  them again on future travels.
+                </p>
+              </div>
+              <div class="client__details">
+                <img src="png/Maman Testmony.jpg" alt="client" />
+                <div>
+                  <h4>MAMAN</h4>
+                  <h5>Business Executive</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Maman Airline</a>
+          </div>
+          <p>
+            Jelajahi dunia dengan mudah dan penuh semangat melalui platform perjalanan kami yang komprehensif.
+             Perjalanan Anda dimulai di sini, di mana perencanaan yang mulus bertemu
+              dengan pengalaman yang tak terlupakan.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-youtube-line"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Shortcut</h4>
+          <ul class="footer__links">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Penerbangan</a></li>
+            <li><a href="#">Hotel</a></li>
+            <li><a href="#">Kapal</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Kontak Kita</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +62 81813131
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-record-mail-line"></i></span> info@MamanAirline
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> IdnBoardingSchoolSolo
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Subscribe</h4>
+          <form action="/">
+            <input type="text" placeholder="Enter your email" />
+            <button class="btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bar">
+       © 2024 IdnBoardingSchoolSolo
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="style.js"></script>
+  </body>
+</html>
